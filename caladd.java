@@ -24,6 +24,11 @@ public class caladd{
 				   a= scan.nextFloat();
 				   b= scan.nextFloat();
 				   res = a*b;
+			case '4' : system.out.print("divide two numbers");
+				   a= scan.nextFloat();
+				   b= scan.nextFloat();
+				   res = a/b;	
+
 			default: System.out.print("INVALID CHOICE!!!!");
 		}
 		System.out.print("\n---------------\n");
